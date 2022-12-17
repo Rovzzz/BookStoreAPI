@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ZlobinovAPIModelContainer" CdmEntityContainer="ZlobinovAPIEntities">
+    <EntitySetMapping Name="BookStore">
+      <EntityTypeMapping TypeName="ZlobinovAPIModel.BookStore">
+        <MappingFragment StoreEntitySet="BookStore">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name_book" ColumnName="name_book" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
